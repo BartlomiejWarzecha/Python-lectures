@@ -2,7 +2,7 @@
 
 def Procent_ukonczenia(Ksiazka):
 
-    Strony = int(input('Na ktorej stronie ksiazki jestes?   '))
+    Strony = int(input('Na ktorej stronie ksiazki jestes?'))
     ukonczenie = (Strony/Ksiazka) * 100
     print('Za toba juz ',round(ukonczenie, 2),'% ksiazki')
 
